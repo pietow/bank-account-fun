@@ -31,7 +31,7 @@ const minus = (x, y) => x - y
 function App() {
     const [balance, setBalance] = useState(parseInt(localStorage.balance) || 1000)
     return (
-        <div className="container mx-auto border-2 border-red-500 flex flex-col justify-items-center items-center">
+        <div className="container mx-auto flex flex-col justify-items-center items-center">
             <h2 className="font-sans text-4xl m-5">Your current balance is {balance} €</h2>
             <div>
                 <BankInput
