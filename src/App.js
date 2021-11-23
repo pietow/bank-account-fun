@@ -11,6 +11,7 @@ const BankInput = ({ balance, onBalanceChange, name }) => {
 
     function handleChange() {
         onBalanceChange(balance, input)
+        setInput('')
     }
 
     return (
